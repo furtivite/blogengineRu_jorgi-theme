@@ -18,7 +18,7 @@
 ## Особенности темы
 - Поддержка тёмной темы
 
-[светлая тема](https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/2020-08-03_01-10-42.png?token=AL77WWRYDXIYZPXOGXQAFI27GB26U)
+(https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/2020-08-03_01-10-42.png?token=AL77WWRYDXIYZPXOGXQAFI27GB26U)
 
 Ниже изменения относительно стандартной темы:
 
@@ -27,7 +27,7 @@
 - Увеличен размер шрифта (для мобильной версии задан рассчитываемый меньший размер)
 - Удалены переменные цветов в `src/styles/variables.scss` - "сборщик" отказывался их понимать, правка цветов происходит в `:root{}` в том же файле ниже
 - Изменены шрифты
-    - У текстов на [[https://www.paratype.ru/fonts/pt/pt-astra-sans PT Astra Sansby Paratype]], которую они сделали для Astra Linux. (Гарнитура подготовлена к выпуску компанией ПараТайп в 2016 году и распространяется на условиях открытой пользовательской лицензии SIL OPEN FONT LICENSE (OFL)). Альтернатива `serif`. Пакет находится в `src/styles/components/fonts`
+    - У текстов на (PT Astra Sansby Paratype)[https://www.paratype.ru/fonts/pt/pt-astra-sans], которую они сделали для Astra Linux. (Гарнитура подготовлена к выпуску компанией ПараТайп в 2016 году и распространяется на условиях открытой пользовательской лицензии SIL OPEN FONT LICENSE (OFL)). Альтернатива `serif`. Пакет находится в `src/styles/components/fonts`
     - У заголовков `h1`, движковых блоков: поля ввода, теги - установлены "дефолтные" `sans-serif`-шрифты для вашей системы: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;`
     - У блоков кода уменьшен размер шрифта, относительно основного текста
 - Конец каждой записи отбивается пунктиром
