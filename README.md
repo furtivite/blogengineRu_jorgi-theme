@@ -18,7 +18,7 @@
 ## Особенности темы
 - Поддержка тёмной темы
 
-!(https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/2020-08-03_01-10-42.png?token=AL77WWRYDXIYZPXOGXQAFI27GB26U)
+![Темная тема](https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/2020-08-03_01-10-42.png?token=AL77WWRYDXIYZPXOGXQAFI27GB26U)
 
 Ниже изменения относительно стандартной темы:
 
