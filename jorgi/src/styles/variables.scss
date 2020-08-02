@@ -1,0 +1,151 @@
+@import "components/fonts/PT_Astra_Serif";
+
+$AreCommentsVertical: 'screen and (max-width: 735px)';
+$ArePopularVertical: 'screen and (max-width: 735px)';
+$AreFormsVertical: 'screen and (max-width: 735px)';
+$IsSearchHeadingFullWidth: 'screen and (max-width: 735px)';
+$AreWindowsFullWidth: 'screen and (max-width: 735px)';
+
+$AreFormControlsFullWidth: 'screen and (max-width: 1023px)';
+$AreTextIndentsProportional: 'screen and (max-width: 1023px)';
+$DoTextObjectsNeedOverflowScroll: 'screen and (max-width: 1023px)';
+$DoIconsHaveExtraMargin: 'screen and (max-width: 1023px)';
+$IsCompact: 'screen and (max-width: 1023px)';
+
+:root {
+
+  --articleTitlePic: url(https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/lemon.png?token=AL77WWUJCJGLYXJAF4GOOEK7GB44Q);
+
+  --backgroundColor: #fff;
+  --backgroundTransparentColor: transparentize(#fff, 0.2);
+  --sheetBackgroundColor: rgba(240,240,240,0.8);
+
+  --foregroundColor: #000;
+  --thinRuleColor: transparentize(#000, 0.85);
+
+  --headingsColor: #b03000;;
+  --headingsUnderlineColor: transparentize(#b03000, 0.85);
+  --boldColor: #000;
+  --boldUnderlineColor: transparentize(#000, 0.85);
+  --linkColor: #0060a0;
+  --linkUnderlineColor: transparentize(#0060a0, 0.85);
+  --linkColorVisited: #70a0b0;
+  --linkUnderlineColorVisited: transparentize(#70a0b0, 0.85);
+  --hoverColor: #b03000;
+  --hoverUnderlineColor: transparentize(#b03000, 0.85);
+  --tagColor: #556677;
+  --tagUnderlineColor: transparentize(#556677, 0.85);
+  --adminColor: #009030;
+  --adminUnderlineColor: transparentize(#009030, 0.85);
+  --engineTextColor: #a0a0a0;
+  --engineTextUnderlineColor: transparentize(#a0a0a0, 0.85);
+
+  --markedTextBackground: #fffada;
+  --markedImageBorderColor: #fff8b8;
+
+  --inputBackgroundColor: #f0f0f0;
+  --inputTextColor: #000;
+
+  --imageBorderColor: #e8e8e8;
+  --disabledColor: #cccccc;
+  --activeColor: #ff3000;
+  --errorColor: #b03000;
+  --currentItemBackgroundColor: #e8e8e8;
+  --windowBackgroundColor: #fff;
+  --unsavedIndicatorColor: #b03000;
+
+  // to match .likely
+  --subscribeButtonBackground: rgba(231,231,231,.8);
+  --subscribeButtonHoverBackground: rgba(212,212,212,.8);
+  --subscribeButtonTextColor: #000;
+
+  // to match .likely-light
+  /* --subscribeButtonBackground: rgba(236,236,236,.16); */
+  /* --subscribeButtonHoverBackground: rgba(255,255,255,.48); */
+  /* --subscribeButtonTextColor: #fff; */
+
+  --maxWidth: calc(100% - 20px);
+  --marginTop: 48px;
+  --marginLeft: 9%;
+  --marginRight: 9%;
+  --marginTopCompact: 16px;
+  --marginLeftCompact: 4%;
+  --marginRightCompact: 4%;
+
+  --displayLogoMarginal: block;
+  --displayLogo: none;
+  --displayLogoCompact: block;
+
+  --columnSpacing: 15px;
+
+  --borderRadius: 4px;
+
+  --logoTop: -20px;
+  --logoSize: 40px;
+  --blogTitleFontSize: 16px;
+  --blogTitleLineHeight: 24px;
+  --pageHeadingFontSize: 36px;
+  --pageHeadingLineHeight: 42px;
+  --noteTitleFontSize: 32px;
+  --noteTitleLineHeight: 33px;
+  --noteTitleFavouriteFontSize: 40px;
+  --noteTitleFavouriteLineHeight: 41px;
+  --noteTextFontSize: 24px;
+  --noteTextLineHeight: 25px;
+
+  --mainFontFamily: 'PT Astra Serif', serif;
+  --noteMainFontFamily: inherit;
+  --smallFontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+  --time: .2s;
+  --timeLong: .33s;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root .e2-responds-to-dark-mode {
+
+    --backgroundColor:             rgb(  32,  32,  32      );
+    --backgroundTransparentColor: rgba(  32,  32,  32, .8  );
+    --sheetBackgroundColor:       rgba(  32,  32,  32, .8  );
+    
+    --foregroundColor:             rgb( 192, 192, 192      );
+    --thinRuleColor:              rgba( 192, 192, 192, .25 );
+    
+    --headingsColor:               rgb( 255, 255, 255      );
+    --headingsUnderlineColor:     rgba( 255, 255, 255, .5  );
+    --boldColor:                     var(--foregroundColor);
+    --boldUnderlineColor:            var(--thinRuleColor);
+    --linkColor:                   rgb(   0, 128, 212      );
+    --linkUnderlineColor:         rgba(   0, 128, 212, .25 );
+    // --linkColorVisited:            rgb(   0,  96, 160      );
+    // --linkUnderlineColorVisited:  rgba(   0,  96, 160, .25 );
+    --hoverColor:                  rgb( 240,  64,  32);
+    --hoverUnderlineColor:        rgba( 240,  64,  32, .25 );
+    
+    --adminColor:                  rgb(  76, 178, 110);
+    --adminUnderlineColor:        rgba(  76, 178, 110, .25 );
+
+    --markedTextBackground:           #443300;
+    --markedImageBorderColor:         #886600;
+
+    --inputBackgroundColor:           #404040;
+    --inputTextColor:                var(--foregroundColor);
+
+    --imageBorderColor:             #404040;
+    --disabledColor:               rgb(  96,  96,  96      );
+    --activeColor:                   var(--headingsColor);
+    --errorColor:                  rgb( 240,  64,  32);
+    --currentItemBackgroundColor:     #303030;
+    --windowBackgroundColor:          #303030;
+    /* --unsavedIndicatorColor */
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --noteTextFontSize: 18px;
+    --noteTextLineHeight: 19px;
+  }
+}
