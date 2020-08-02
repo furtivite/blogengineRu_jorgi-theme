@@ -18,6 +18,8 @@
 ## Особенности темы
 - Поддержка тёмной темы
 
+![Светлая тема](https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/2020-08-03_01-11-11.png?token=AL77WWR7ZNVQAVFZUSC4JKC7GB3TG)
+
 ![Темная тема](https://raw.githubusercontent.com/furtivite/blogengineRu_jorgi-theme/develop/img/2020-08-03_01-10-42.png?token=AL77WWRYDXIYZPXOGXQAFI27GB26U)
 
 Ниже изменения относительно стандартной темы:
@@ -31,13 +33,19 @@
     - У заголовков `h1`, движковых блоков: поля ввода, теги - установлены "дефолтные" `sans-serif`-шрифты для вашей системы: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;`
     - У блоков кода уменьшен размер шрифта, относительно основного текста
 - Конец каждой записи отбивается пунктиром
+    ![](https://github.com/furtivite/blogengineRu_jorgi-theme/blob/develop/img/2020-08-03_01-12-54.png?raw=true)
 - Заголовок записи выделяется изображением (кроме первой записи после заголовка на первой странице)
+    ![](https://github.com/furtivite/blogengineRu_jorgi-theme/blob/develop/img/2020-08-03_01-12-38.png?raw=true)
 - Увеличено расстояние между записями
 - Возвращены стандартные обозначения ненумерованных списков (форматирование изменено)
+    ![](https://github.com/furtivite/blogengineRu_jorgi-theme/blob/develop/img/2020-08-03_01-12-16.png?raw=true)
 - Добавлено уникальное форматирование под задачи автора
     - Сделаны выноски (callouts): `<span class="my-callout"></span>`
+    ![](https://github.com/furtivite/blogengineRu_jorgi-theme/blob/develop/img/2020-08-03_01-11-45.png?raw=true)
     - Для отображения инфраструктуры добавлены изображения файлов `<span class="my-folder"></span>` и папок `<span class="my-file"></span>`
+    ![](https://github.com/furtivite/blogengineRu_jorgi-theme/blob/develop/img/2020-08-03_01-13-04.png?raw=true)
     - Для отображения тегов в строке `<span class="my-code"></span>`
+    ![](https://github.com/furtivite/blogengineRu_jorgi-theme/blob/develop/img/2020-08-03_01-13-30.png?raw=true)
 - В подвал добавлена ссылка на телеграм
 
 ## Как пользоваться
