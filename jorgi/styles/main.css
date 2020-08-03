@@ -3651,4 +3651,12 @@ a:hover .title-inner {
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .e2-published.e2-smart-title:before {
+    position: absolute;
+    top: -45px;
+    left: 0;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
