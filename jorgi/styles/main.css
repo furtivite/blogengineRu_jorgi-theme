@@ -1582,6 +1582,14 @@ a.admin-menu-comments-count.hover {
   max-width: 85%;
 }
 
+.e2-text ul ul,
+.e2-text ul ol,
+.e2-text ol ul,
+.e2-text ol ol {
+  padding-top: 10px;
+  padding-left: 23px;
+}
+
 @media screen and (max-width: 600px) {
   .e2-text ul,
 .e2-text ol,
@@ -1681,12 +1689,19 @@ a.admin-menu-comments-count.hover {
 .e2-text ul,
 .e2-text ol,
 .e2-text blockquote {
-    padding-left: 8%;
+    padding-left: 0;
   }
 
   .e2-text-block-quote,
 .e2-text-block-cap {
     padding-left: calc(8% - 1px);
+  }
+
+  .e2-text ul ul,
+.e2-text ul ol,
+.e2-text ol ul,
+.e2-text ol ol {
+    padding-left: 8%;
   }
 }
 @media screen and (max-width: 1023px) {
