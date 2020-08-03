@@ -3629,30 +3629,33 @@ a:hover .title-inner {
   position: relative;
 }
 
-.e2-published.e2-smart-title:before {
-  content: "";
-  background: var(--articleTitlePic);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 20px;
-  filter: grayscale(1);
+.title-image {
   width: 40px;
-  height: 40px;
   position: absolute;
   top: 0;
   left: -60px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 */
 }
 
-.e2-published:hover.e2-smart-title:before {
+.e2-published:hover .title-image {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
   filter: none;
-}
-
-.e2-note:first-of-type .e2-published.e2-smart-title:before {
-  display: none;
+  filter: none;
+  /* IE 6-9 */
 }
 
 @media screen and (max-width: 1024px) {
-  .e2-published.e2-smart-title:before {
+  .title-image {
     position: absolute;
     top: -45px;
     left: 0;
