@@ -1587,7 +1587,7 @@ a.admin-menu-comments-count.hover {
 .e2-text ol ul,
 .e2-text ol ol {
   padding-top: 10px;
-  padding-left: 23px;
+  padding-left: 2em;
 }
 
 @media screen and (max-width: 600px) {
@@ -3620,8 +3620,7 @@ a:hover .title-inner {
   display: inline-block;
   background: var(--inputBackgroundColor);
   border: 1px solid var(--inputBackgroundColor);
-  padding: 5px 20px;
-  margin-left: -20px;
+  padding: 10px 10px 10px 2em;
   border-radius: 5px;
 }
 
